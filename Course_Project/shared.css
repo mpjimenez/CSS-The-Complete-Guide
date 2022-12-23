@@ -8,11 +8,11 @@ body {
 }
 
 .main-header {
-  background: #2ddf5c;
   width: 100%;
   position: fixed;
-  margin-top: 0;
-  margin-left: 0;
+  top: 0;
+  left: 0;
+  background: #2ddf5c;
   padding: 8px 16px;
   z-index: 1;
 }
@@ -27,6 +27,14 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
+  height: 22px;
+  /* width: 20px; */
+  display: inline-block;
+}
+
+.main-header__brand img {
+  height: 100%;
+  /* width: 100%; */
 }
 
 .main-nav {
@@ -49,8 +57,8 @@ body {
 
 .main-nav__item a {
   text-decoration: none;
+  color: #0e4f1f;
   font-weight: bold;
-  color: #451bff;
   padding: 3px 0;
 }
 
@@ -76,7 +84,6 @@ body {
 
 .main-footer {
   background: black;
-  color: white;
   padding: 32px;
   margin-top: 48px;
 }
@@ -104,7 +111,7 @@ body {
 }
 
 .button {
-  background-color: #0e4f1f;
+  background: #0e4f1f;
   color: white;
   font: inherit;
   border: 1.5px solid #0e4f1f;
